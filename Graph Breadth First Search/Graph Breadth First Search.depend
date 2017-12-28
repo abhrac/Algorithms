@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1474790773 source:d:\c++ programs\graph breadth first search\main.cpp
+	<iostream>
+	<queue>
+

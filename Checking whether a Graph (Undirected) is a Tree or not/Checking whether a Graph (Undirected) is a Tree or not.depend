@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1476287818 source:d:\c++ programs\checking whether a graph (undirected) is a tree or not\main.cpp
+	<iostream>
+	<stack>
+
