@@ -44,19 +44,6 @@ class Heap:
     def printHeap(self):
         print([i for i in self.l]);
 
-def Dijkstra(graph, source):
-    h=Heap(len(graph), 100000);
-    h.decKey(source, 0);
-    print("Shortest paths using Dijkstra's Algorithm:");
-    while(not h.empty()):
-        min=h.extractMin();
-        print(min);
-        temp=graph[min[0]].next;
-        while(temp!=None):
-            w=min[1]+temp.weight;
-            h.decKey(temp.label, w);
-            temp=temp.next;
-
 if __name__=='__main__':
     h=Heap(5);
     h.printHeap()
